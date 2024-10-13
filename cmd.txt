@@ -1,0 +1,9 @@
+add coneecttion by admin all psogres and port is 5432
+
+
+docker exec -it myproject-airflow-scheduler-1 /bin/bash
+
+
+airflow tasks test user_processing create_table 2024-01-01
+
+
